@@ -7,8 +7,8 @@ if __name__ == '__main__':
     filename_encrypted = 'test.csv.gpg'
     filename_decrypted = 'test_decrypt.csv'
     filename_public_key = 'public_key.pgp'
-    recipients = 'vpadron211@gmail.com'
-    password = 'virgilio21'
+    recipients = 'your@gmail.com'
+    password = 'super_secret_pass_to_decrypt'
 
     encrypt(filename_public_key, filename_to_encrypt, filename_encrypted, recipients)
 
